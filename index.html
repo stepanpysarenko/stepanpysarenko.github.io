@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Stepan Pysarenko</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://stepanpysarenko.com/">
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0
+        }
+
+        body {
+            background: #121212;
+            color: #e0e0e0;
+            font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            display: grid;
+            place-items: center;
+        }
+
+        .center {
+            text-align: center;
+            display: grid;
+            gap: 20px;
+            padding: 24px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(28px, 6vw, 56px);
+            letter-spacing: 0.5px;
+        }
+
+        nav {
+            display: grid;
+            gap: 12px;
+        }
+
+        nav a {
+            display: block;
+            padding: 12px 20px;
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: 500;
+            background: transparent;
+            transition: background 0.25s, color 0.25s;
+        }
+
+        nav a:hover {
+            background: #e0e0e0;
+            color: #121212;
+        }
+
+        nav a:focus-visible {
+            outline: 2px solid #e0e0e0;
+            outline-offset: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="center" aria-label="Intro">
+        <h1>Stepan Pysarenko</h1>
+        <nav aria-label="Links">
+            <a href="https://www.linkedin.com/in/stepan-pysarenko/" target="_blank" rel="me noopener">LinkedIn</a>
+            <a href="https://github.com/stepanpysarenko" target="_blank" rel="me noopener">GitHub</a>
+        </nav>
+    </main>
+</body>
+
+</html>
